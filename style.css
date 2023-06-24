@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.creators{
+    height: 570px;
+    background-color: rgba(228, 226, 223, 1);
+}
+
+@media only screen and (max-width: 768px) {
+    .maindiv{
+        flex-direction: column;
+        display: flex; 
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .links{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .copy{
+        width: 100%;
+    }
+}
+
+
